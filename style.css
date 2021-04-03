@@ -16,7 +16,6 @@ body {
 .header-desc .header-desc__more {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .header-desc {
     text-align: center;
@@ -59,6 +58,7 @@ button {
 button:hover {
   color: #3a3a3a;
 }
+
 /* heading */
 h3,
 label[for="new-task"] {
@@ -146,12 +146,10 @@ ul#completed-tasks label {
 ul li input[type=text] {
   display: none;
 }
-
 ul li.editmode input[type=text] {
   display: inline-block;
   width: 224px;
 }
-
 ul li.editmode label {
   display: none;
 }
